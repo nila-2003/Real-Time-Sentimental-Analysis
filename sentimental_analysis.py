@@ -102,8 +102,9 @@ print(df_augmented.head())
 
 label_encoder = LabelEncoder()
 df_augmented['emotion_encoded'] = label_encoder.fit_transform(df_augmented['emotion'].fillna('unknown'))
-
 df_augmented = shuffle(df_augmented)
+df_augmented['emotion'] = df_augmented['emotion'].fillna('unknown')
+df_augmented['emotion_encoded'] = label_encoder.fit_transform(df_augmented['emotion'])
 
 X = df_augmented.drop(['emotion', 'emotion_encoded'], axis=1)
 y = df_augmented['emotion_encoded']
