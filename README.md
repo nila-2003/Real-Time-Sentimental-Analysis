@@ -1,12 +1,12 @@
 # Real-time Sentimental Analysis
 <hr>
 This repository contains code for a real-time emotion detection system using audio data. The system is built using machine learning techniques, including feature extraction, data augmentation, and a pre-trained neural network model.
-<br>
+
 ## Features
 <br>
-- **Real-Time Detection:** The system can analyze emotions in real-time from audio input.
-- **Machine Learning Model:** A pre-trained neural network model is used for accurate emotion prediction.
-- **Data Augmentation:** The training data is augmented to improve model robustness.
+- Real-Time Detection: The system can analyze emotions in real-time from audio input.
+- Machine Learning Model: A pre-trained neural network model is used for accurate emotion prediction.
+- Data Augmentation: The training data is augmented to improve model robustness.
 
 Model Loss - 0.464 when trained on 100 epochs
 ## Usage
