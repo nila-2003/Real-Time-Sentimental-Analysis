@@ -4,11 +4,14 @@ This repository contains code for a real-time emotion detection system using aud
 
 ## Features
 <br>
-- Real-Time Detection: The system can analyze emotions in real-time from audio input.
-- Machine Learning Model: A pre-trained neural network model is used for accurate emotion prediction.
-- Data Augmentation: The training data is augmented to improve model robustness.
+Real-Time Detection: The system can analyze emotions in real-time from audio input.
+Machine Learning Model: A pre-trained neural network model is used for accurate emotion prediction.
+Data Augmentation: The training data is augmented to improve model robustness.
 
 Model Loss - 0.464 when trained on 100 epochs
+
+Predicted Emotions:
+Anger(1), Disgust(2), Fear(3), Happy(4), Neutral(5), and Sad(6)
 ## Usage
 
 1. **Preparation:**
